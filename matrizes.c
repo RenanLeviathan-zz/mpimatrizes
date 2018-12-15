@@ -1,7 +1,7 @@
 #include <mpi.h>
 #include <stdio.h>
 #include <stdlib.h>
-#define ORDEM 10
+#define ORDEM 500
 int main(int argc, char** argv){
 MPI_Init(NULL, NULL);
 int world_rank;
